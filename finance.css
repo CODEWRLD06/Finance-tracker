@@ -1,0 +1,178 @@
+*{
+    max-width: 1200px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-image: url(images/african-american-business-trader-writing-crypto-investment-value-notebook-while-analyzing-stock-market-investment-computer-broker-man-checking-marketing-trading-charts-working-remote-from-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    margin-left: 350px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: white;
+}
+
+h3{
+    margin-left: 300px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+#learnMoreSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+#about, #features {
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9;
+}
+
+#about h2, #features h2 {
+    text-align: center; 
+    margin-bottom: 15px; 
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+#about p , #features p{
+    margin: 0 auto; 
+    width: 90%; 
+    line-height: 1.6;
+    color: #555; 
+    font-size: 1em; 
+}
+#features p:nth-of-type(2){
+    margin-top: 30px;
+}
+
+#features p:nth-of-type(3){
+    margin-top: 30px;
+}
+
+#features p:nth-of-type(4){
+    margin-top: 30px;
+}
+
+
+#financesInput{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+}
+
+#dateLabel, #descriptionLabel, #amountLabel, #categoryLabel{
+    font-size: 20px;
+}
+
+input, select {
+    height: 40px;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+select {
+    font-size: 1em;
+    background-color: #fff;
+    color: #333;
+
+}
+
+#addBtn{
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#addBtn:hover{
+    background-color: #555;
+}
+#total{
+    border: 1px solid grey;
+    width: 200px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#totalAmount{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#expensesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url(images/concentrated-young-mixed-race-female-secretary-reading-urgent-message.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#expensesContainer > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#expensesContainer button{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;    
+}
+
+button:hover{
+    background-color: #555;
+}
+
+#expensesContainer p:nth-of-type(1), #expensesContainer p:nth-of-type(4){
+    margin-left: 15px;
+}
+
+#expensesContainer p:nth-of-type(3){
+    margin-left: 60px;
+}
+
+#expensesContainer p, #expensesContainer button{
+    border-right: 2px solid #555;
+    margin-left: 40px;
+}
+
+
+
+
