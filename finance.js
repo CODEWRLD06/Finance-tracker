@@ -24,8 +24,6 @@ const addExpenses = () => {
     const descriptionInfo = document.createElement('p');
     descriptionInfo.textContent = description.value;
 
-    
-
     const amountInfo = document.createElement('p');
     amountInfo.textContent = `$${amount.value}`;  
     const amountValue = parseFloat(amount.value);
@@ -37,6 +35,10 @@ const addExpenses = () => {
 
     const categoryInfo = document.createElement('p');
     categoryInfo.textContent = category.value;
+
+    if (category.value.trim() === 'Bills'){
+        categoryInfo.style.marginLeft = '55px';
+    }
 
     const editBtn = document.createElement('button');
     editBtn.textContent = 'Edit';
